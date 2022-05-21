@@ -39,8 +39,9 @@
         }
         window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-SLQDMLQT9B")
     </script>
-    <link href="css/2.966b94fa.chunk.css" rel="stylesheet">
-    <link href="css/main.83d68e7c.chunk.css" rel="stylesheet">
+    <link href="/presale/css/app.css" rel="stylesheet">
+    <link href="/presale/css/2.966b94fa.chunk.css" rel="stylesheet">
+    <link href="/presale/css/main.83d68e7c.chunk.css" rel="stylesheet">
     <style>
         /* .layout__footer {
     width: 100%;
@@ -92,7 +93,7 @@
                         <div class="page">
                             <div class="page__inner">
                                 <div class="page__back"><img src="/static/media/back.887c90a8.svg" alt="back"
-                                        class="page__back-icon">Back</div>
+                                        class="page__back-icon"><a href="/presale">Back</a></div>
                                 <div class="project">
                                     <div class="project-timeline project__timeline">
                                         <div class="project-timeline__inner">
@@ -185,25 +186,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="project-info__bottom">
-                                                    <div class="project-info__fill">
-                                                        <div class="project-whitelist"><a href="/presale/btc"><button 
-                                                            class="stage-button">Buy with BTC</button></a></div> <br>
-                                                        <div class="project-whitelist"><a href="/presale/usdt"><button 
-                                                                class="stage-button" style="background: blueviolet">Buy with USDT</button></a></div><br>
-                                                        <div class="project-whitelist"><a href="/presale/eth"><button  style="background: darkorange"
-                                                                class="stage-button">Buy with ETH</button></a></div><br>
-                                                        <div class="project-whitelist"><button  style="background: crimson"
-                                                                class="stage-button">Buy from BNB</button></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project__wizard">
-                                            <div class="project-wizard">
-                                                <div class="project-wizard__row">
-                                                    <div class="project-wizard__col" style="width: 100%;">
-                                                        <div class="project-info__schedule"><img
-                                                            src="/static/media/date-picker.8bce9c8f.svg" alt="">20% at
+                                                    <div class="project-info__schedule"><img
+                                                        src="/static/media/date-picker.8bce9c8f.svg" alt="">20% at
                                                         TGE and start vesting on block After IDO, vesting for 5
                                                         months<img src="/static/media/arrow-right.9e33bac9.svg" alt="">
                                                     </div>
@@ -232,20 +216,61 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    </div>
-                                                    <!-- <div class="project-wizard__col"> -->
-                                                        <!-- <div class="project-wizard__timer">
-                                                            <div class="project-timer">
-                                                                <div class="project-timer__title">Whitelist starts in
-                                                                </div>
-                                                                <div class="project-timer__tba">TBA</div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="project-whitelist"><button 
-                                                                class="stage-button _disabled">Apply to
-                                                                Whitelist</button></div> -->
-                                                    <!-- </div> -->
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="project__wizard">
+                                            <div class="project-wizard">
+                                                <!-- <div class="project-wizard__row"> -->
+                                                    <!-- <div data-v-679f58ab="" class="grid grid-cols-12 gap-6 mt-5"> -->
+                                                        <!-- <div data-v-679f58ab="" class="intro-y col-span-12"> -->
+                                                            <div data-v-679f58ab="" class="intro-y box p-5" style="background-color: unset;">
+                                                                <div data-v-679f58ab="">
+                                                                    <div data-v-679f58ab=""
+                                                                        class="nav-tabs flex flex-col sm:flex-row justify-center lg:justify-start">
+                                                                        <a data-v-679f58ab="" data-toggle="tab" href="javascript:;"
+                                                                            class="py-4 sm:mr-8 active text-xl">Presale with ETH</a></div>
+                                                                </div>
+                                                                <div data-v-679f58ab="" class="mt-3 px-3">
+                                                                    <div data-v-679f58ab="" class="relative mt-2">
+                                                                        <p>- Send only ETH to this deposit address.</p>
+                                                                        <p>- Sending coin or token other than ETH to this
+                                                                            address may result in the loss of
+                                                                            your
+                                                                            deposit.</p>
+                                                                        <p>- Coins will be deposited after 1 network
+                                                                            confirmations.</p>
+                                                                    </div>
+                                                                </div>
+                                                                <br><br>
+                                                                <div data-v-679f58ab="" class="mt-3"><label data-v-679f58ab="">Enter the deposit
+                                                                        amount (ETH)</label>
+                                                                    <div data-v-679f58ab="" class="relative mt-2"><input  id="input-btc-qty" style="color: black;"
+                                                                            type="number" placeholder="ETH" onkeyup="show()"
+                                                                            class="input input--lg pr-12 w-full border col-span-4"></div>
+                                                                </div>
+                                                                <div data-v-679f58ab="" class="mt-3 block w-1/2 mx-auto" id="qr-code"><img data-v-679f58ab=""
+                                                                        src="barcode.jpeg">
+                                                                </div>
+                                                                <div data-v-679f58ab="" class="mt-3 flex flex-row justify-center items-center" id="input-btc">
+                                                                    <div data-v-679f58ab="" class="mt-2" style="width: 100%;"><input  id="total-kod" data-v-679f58ab=""
+                                                                            type="text" placeholder="ETH" readonly="readonly" disabled="disabled"
+                                                                            class="input input--lg pr-12 w-full border col-span-4"></div>
+                                                                </div>
+                                                                <div data-v-679f58ab="" class="mt-3 flex flex-row justify-center items-center" id="code-btc">
+                                                                    <div data-v-679f58ab="" class="mt-2" style="width: 100%;"><input data-v-679f58ab=""
+                                                                            type="text" readonly="readonly" disabled="disabled"
+                                                                            class="input input--lg pr-12 w-full border col-span-4" value="0x9D79A8C80b544f5C0910328601B9bAe23c1Ecc78"></div>
+                                                                </div>
+                                                                <!---->
+                                                                <div data-v-679f58ab="" class="text-right mt-5"><button data-v-679f58ab=""
+                                                                        class="button button--lg w-full mr-2 mb-2 flex items-center justify-center  text-white bg-gray-200 cursor-not-allowed btn-reset" onclick="reset()">
+                                                                        Reset
+                                                                    </button></div>
+                                                            </div>
+                                                        <!-- </div> -->
+                                                    <!-- </div> -->
+                                                <!-- </div> -->
                                                 <div class="project-wizard__row">
                                                     <div class="project__desc">
                                                         <div class="project__desc-title">DroiLand</div>
@@ -276,7 +301,6 @@
                                 <div class="footer__block">
                                     <div class="footer__menu">
                                     </div>
-                                    <div class="footer__column">
                                         <div class="footer__social">
                                             <ul style="display: flex;flex-wrap: wrap;justify-content: var(--flex-alignment);letter-spacing: 0;padding: 0px;">
                                                 <li style="list-style: none; padding: 5px;"><a href="https://t.me/DroidlandP2E" target="_blank"><svg style="fill: white;" width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path id="telegram-5" d="M12,0c-6.627,0 -12,5.373 -12,12c0,6.627 5.373,12 12,12c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12Zm0,2c5.514,0 10,4.486 10,10c0,5.514 -4.486,10 -10,10c-5.514,0 -10,-4.486 -10,-10c0,-5.514 4.486,-10 10,-10Zm2.692,14.889c0.161,0.115 0.368,0.143 0.553,0.073c0.185,-0.07 0.322,-0.228 0.362,-0.42c0.435,-2.042 1.489,-7.211 1.884,-9.068c0.03,-0.14 -0.019,-0.285 -0.129,-0.379c-0.11,-0.093 -0.263,-0.12 -0.399,-0.07c-2.096,0.776 -8.553,3.198 -11.192,4.175c-0.168,0.062 -0.277,0.223 -0.271,0.4c0.006,0.177 0.125,0.33 0.296,0.381c1.184,0.354 2.738,0.847 2.738,0.847c0,0 0.725,2.193 1.104,3.308c0.047,0.139 0.157,0.25 0.301,0.287c0.145,0.038 0.298,-0.001 0.406,-0.103c0.608,-0.574 1.548,-1.461 1.548,-1.461c0,0 1.786,1.309 2.799,2.03Zm-5.505,-4.338l0.84,2.769l0.186,-1.754c0,0 3.243,-2.925 5.092,-4.593c0.055,-0.048 0.062,-0.13 0.017,-0.188c-0.045,-0.057 -0.126,-0.071 -0.188,-0.032c-2.143,1.368 -5.947,3.798 -5.947,3.798Z"></path></svg></a></li>
@@ -287,7 +311,6 @@
                                                 <li style="list-style: none; padding: 5px;"><a href="https://droidland.world/" target="_blank"><svg style="fill: white;" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.02 0c6.614.011 11.98 5.383 11.98 12 0 6.623-5.376 12-12 12-6.623 0-12-5.377-12-12 0-6.617 5.367-11.989 11.981-12h.039zm3.694 16h-7.427c.639 4.266 2.242 7 3.713 7 1.472 0 3.075-2.734 3.714-7m6.535 0h-5.523c-.426 2.985-1.321 5.402-2.485 6.771 3.669-.76 6.671-3.35 8.008-6.771m-14.974 0h-5.524c1.338 3.421 4.34 6.011 8.009 6.771-1.164-1.369-2.059-3.786-2.485-6.771m-.123-7h-5.736c-.331 1.166-.741 3.389 0 6h5.736c-.188-1.814-.215-3.925 0-6m8.691 0h-7.685c-.195 1.8-.225 3.927 0 6h7.685c.196-1.811.224-3.93 0-6m6.742 0h-5.736c.062.592.308 3.019 0 6h5.736c.741-2.612.331-4.835 0-6m-12.825-7.771c-3.669.76-6.671 3.35-8.009 6.771h5.524c.426-2.985 1.321-5.403 2.485-6.771m5.954 6.771c-.639-4.266-2.242-7-3.714-7-1.471 0-3.074 2.734-3.713 7h7.427zm-1.473-6.771c1.164 1.368 2.059 3.786 2.485 6.771h5.523c-1.337-3.421-4.339-6.011-8.008-6.771"></path></svg></a></li>
                                             </ul>
                                         </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -297,84 +320,72 @@
         </div>
     </div>
     <script src="js/blockpass-kyc-connect.prod.js"></script>
-    <!-- <script>
-        ! function (e) {
-            function r(r) {
-                for (var n, a, i = r[0], l = r[1], f = r[2], p = 0, s = []; p < i.length; p++) a = i[p], Object
-                    .prototype.hasOwnProperty.call(o, a) && o[a] && s.push(o[a][0]), o[a] = 0;
-                for (n in l) Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
-                for (c && c(r); s.length;) s.shift()();
-                return u.push.apply(u, f || []), t()
-            }
-
-            function t() {
-                for (var e, r = 0; r < u.length; r++) {
-                    for (var t = u[r], n = !0, i = 1; i < t.length; i++) {
-                        var l = t[i];
-                        0 !== o[l] && (n = !1)
-                    }
-                    n && (u.splice(r--, 1), e = a(a.s = t[0]))
-                }
-                return e
-            }
-            var n = {},
-                o = {
-                    1: 0
-                },
-                u = [];
-
-            function a(r) {
-                if (n[r]) return n[r].exports;
-                var t = n[r] = {
-                    i: r,
-                    l: !1,
-                    exports: {}
-                };
-                return e[r].call(t.exports, t, t.exports, a), t.l = !0, t.exports
-            }
-            a.m = e, a.c = n, a.d = function (e, r, t) {
-                a.o(e, r) || Object.defineProperty(e, r, {
-                    enumerable: !0,
-                    get: t
-                })
-            }, a.r = function (e) {
-                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
-                    value: "Module"
-                }), Object.defineProperty(e, "__esModule", {
-                    value: !0
-                })
-            }, a.t = function (e, r) {
-                if (1 & r && (e = a(e)), 8 & r) return e;
-                if (4 & r && "object" == typeof e && e && e.__esModule) return e;
-                var t = Object.create(null);
-                if (a.r(t), Object.defineProperty(t, "default", {
-                        enumerable: !0,
-                        value: e
-                    }), 2 & r && "string" != typeof e)
-                    for (var n in e) a.d(t, n, function (r) {
-                        return e[r]
-                    }.bind(null, n));
-                return t
-            }, a.n = function (e) {
-                var r = e && e.__esModule ? function () {
-                    return e.default
-                } : function () {
-                    return e
-                };
-                return a.d(r, "a", r), r
-            }, a.o = function (e, r) {
-                return Object.prototype.hasOwnProperty.call(e, r)
-            }, a.p = "/";
-            var i = this["webpackJsonpgagarin-react"] = this["webpackJsonpgagarin-react"] || [],
-                l = i.push.bind(i);
-            i.push = r, i = i.slice();
-            for (var f = 0; f < i.length; f++) r(i[f]);
-            var c = l;
-            t()
-        }([])
-    </script> -->
     <script src="js/2.1d6c9036.chunk.js"></script>
     <script src="js/main.9cf7c349.chunk.js"></script>
+    <script>
+        function preview() { 
+            let input_btc_qty = document.getElementById('input-btc-qty').value;
+            if (input_btc_qty <= 0) {
+                alert("Please input nominal BTC min 1 BTC !");
+                return false;
+            }
+            let btn_preview = document.querySelector('.btn-preview');
+            btn_preview.disabled = true
+            btn_preview.classList.remove("bg-theme-1");
+            btn_preview.classList.add("bg-gray-200");
+            btn_preview.classList.add("cursor-not-allowed");
+
+            let btn_show = document.querySelector('.btn-show');
+            btn_show.classList.remove('cursor-not-allowed');
+            btn_show.classList.remove('bg-gray-200');
+            btn_show.classList.add('bg-theme-1');
+            btn_show.disabled = false
+
+            let btn_reset = document.querySelector('.btn-reset');
+            btn_reset.classList.remove('cursor-not-allowed');
+            btn_reset.classList.remove('bg-gray-200');
+            btn_reset.classList.add('bg-theme-1');
+            btn_reset.disabled = false
+        }
+        
+        function reset() { 
+            // let btn_preview = document.querySelector('.btn-preview');
+            // btn_preview.classList.add("bg-theme-1");
+            // btn_preview.classList.remove("bg-gray-200");
+            // btn_preview.classList.remove("cursor-not-allowed");
+            // btn_preview.disabled = false
+
+            // let btn_show = document.querySelector('.btn-show');
+            // btn_show.classList.add('cursor-not-allowed');
+            // btn_show.classList.add('bg-gray-200');
+            // btn_show.classList.remove('bg-theme-1');
+            // btn_show.disabled = true
+
+            // let btn_reset = document.querySelector('.btn-reset');
+            // btn_reset.classList.add('cursor-not-allowed');
+            // btn_reset.classList.add('bg-gray-200');
+            // btn_reset.classList.remove('bg-theme-1');
+            // btn_reset.disabled = true
+
+            document.getElementById('total-kod').value = ""
+            document.getElementById('input-btc-qty').value = ""
+            // document.getElementById('qr-code').style.display = 'none';
+            // document.getElementById('input-btc').style.display = 'none';
+            // document.getElementById('code-btc').style.display = 'none';
+        }
+
+        function show() { 
+            let input_btc_qty = document.getElementById('input-btc-qty').value;
+            if (input_btc_qty <= 0) {
+                document.getElementById('total-kod').value = ""
+                return false;
+            }
+            document.getElementById('total-kod').value = 5135000 * input_btc_qty;
+            // document.getElementById('qr-code').style.display = 'block';
+            // document.getElementById('input-btc').style.display = 'flex';
+            // document.getElementById('code-btc').style.display = 'flex';
+        }
+    </script>
 </body>
 
 </html>
