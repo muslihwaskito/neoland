@@ -744,7 +744,7 @@ blockquote {
 }
 
 .logo-container__img.pt {
-  width: 4em;
+  width: 12em;
   margin-right: 0%;
   padding-top: 0em;
 }
@@ -1392,10 +1392,10 @@ blockquote {
 }
 
 .img-solana {
-  position: relative;
-  top: -2.8em;
+  position: initial;
   display: inline-block;
   width: 78%;
+  transform: none !important;
 }
 
 .shadow-solana__img {
@@ -1745,7 +1745,7 @@ blockquote {
 }
 
 .container-logo {
-  width: 6%;
+  width: 15%;
 }
 
 .container-txt-footer {
@@ -2434,7 +2434,7 @@ blockquote {
 .maptest {
   position: relative;
   overflow: visible;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -4628,7 +4628,7 @@ blockquote {
   }
 
   .container-logo.w--current {
-    width: 8em;
+    width: 15em;
   }
 
   .container-txt-footer {
@@ -4761,7 +4761,7 @@ blockquote {
   }
 
   .maptest.mt-8 {
-    width: 140%;
+    width: 90%;
   }
 
   .img-maptest.c1.parallaxcell {
