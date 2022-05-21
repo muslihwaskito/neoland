@@ -205,11 +205,11 @@
                                                             <div class="project-fill__row">
                                                                 <div class="project-fill__title">ICO Start — DLand
                                                                 </div>
-                                                                <div class="project-fill__percent">0%</div>
+                                                                <div class="project-fill__percent" id="value-percent-data">0%</div>
                                                             </div>
                                                             <div class="project-fill__row">
                                                                 <div class="project-fill__bar">
-                                                                    <div class="project-fill__bar-active"
+                                                                    <div class="project-fill__bar-active" id="value-percent"
                                                                         style="width: 0%;"></div>
                                                                 </div>
                                                             </div>
@@ -217,8 +217,8 @@
                                                                 <div class="project-fill__raise"><img
                                                                         class="card__bar_tokens-left-icon"
                                                                         src="/images/logo.png" alt="DLAND"
-                                                                        width="60" height="40"> 0</div>
-                                                                <div class="project-fill__fill">0 / 117 647.05 <img
+                                                                        width="60" height="40"> </div>
+                                                                <div class="project-fill__fill"><div id="value-invested">0</div> / 110000000 <img
                                                                         class="project-fill__fill-icon"
                                                                         src="https://i.imgur.com/K7hqvA5.png"
                                                                         alt="FOTA"></div>
@@ -368,6 +368,26 @@
     </script> -->
     <script src="js/2.1d6c9036.chunk.js"></script>
     <script src="js/main.9cf7c349.chunk.js"></script>
+    
+	<script>
+		async function getapi() {
+		
+			// Storing response
+			const response = await fetch('/service/get_coin');
+			
+			// Storing data in form of JSON
+			var data = await response.json();
+			if (data.status == 200) {
+				const percent = data.data.percent + '%';
+				let data_invested = data.data.invested
+				document.getElementById('value-percent').style.width = percent;
+				document.getElementById('value-percent-data').innerHTML = percent;
+				document.getElementById('value-invested').innerHTML = data_invested;
+			}
+		}
+	
+		getapi();
+	</script>
 </body>
 
 </html>
